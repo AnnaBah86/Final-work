@@ -312,3 +312,5 @@ function addTovar(tovar){
     }
     localStorage.setItem('addTovar', JSON.stringify(basket));
 }
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3ff50946a92fc67aa0e68d514bc643aae8a01ea70b24623f5bc2f61f0e2a2542&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>

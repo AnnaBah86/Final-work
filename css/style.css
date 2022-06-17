@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'roboto';
-    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    src: url('../fonts/Roboto-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -42,6 +42,7 @@ body {
 header  p {
 	font-weight: bold;
     font-size: 30px;
+	
 }
 h1 {
     font: bold 40px/46px 'roboto';
@@ -733,6 +734,10 @@ legend + input {
 	border-radius: 16px;
 }
 
-
+.infa {
+	text-align: left;
+	padding-left: 130px;
+	padding-top: 50px;
+}
 
 
