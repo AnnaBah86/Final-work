@@ -44,11 +44,15 @@ header  p {
     font-size: 30px;
 	
 }
-h1 {
+h2, h1 {
     font: bold 40px/46px 'roboto';
     color: #d90032;
     margin: 0 0 16px;
+	
    /* text-transform: uppercase;*/
+}
+
+	
 }
 .screen {
     position: fixed;
@@ -166,6 +170,9 @@ footer section {
 }
 .soc {
 	vertical-align: top;
+}
+.big {
+	margin-bottom: 10px;
 }
 
 /* main */
@@ -320,6 +327,8 @@ h3 {
 }
 p {
 	text-align: center;
+	line-height: 1.5;
+	
 }
 .catalog .container {
     overflow: hidden;
@@ -561,7 +570,7 @@ p {
     top: 50%;
     padding: 7px;
     border-radius: 10px;
-    background: white;
+    background: #d1ccc0;
     opacity: 0;
 }
 .alertbox {
@@ -596,14 +605,14 @@ p {
     display: block;
     line-height: 48px;
     text-align: center;
-    border: 1px solid gray;
-    color: gray;
+    border: 1px solid #706fd3;
+    color: #706fd3;
 }
 .calendarbox strong {
     flex: auto;
     line-height: 48px;
     text-align: center;
-    color: gray;
+    color: #706fd3;
 }
 .calendarbox .dp_header {
     display: flex;
@@ -704,9 +713,9 @@ legend {
 input {
     display: block;
     margin-top: 16px;
-    border: 1px solid gray;
+    border: 1px solid #706fd3;
     padding: 16px;
-    color: gray;
+    color: #706fd3;
     height: 30px;
     width: 250px;
 	border-radius: 16px;
@@ -714,9 +723,9 @@ input {
 textarea {
     display: block;
     margin-top: 16px;
-    border: 1px solid gray;
+    border: 1px solid #706fd3;
     padding: 16px;
-    color: gray;
+    color: #706fd3;
     height: 60px;
     width: 250px;
 	border-radius: 16px;
@@ -734,10 +743,10 @@ legend + input {
 	border-radius: 16px;
 }
 
-.infa {
+ .infa {
 	text-align: left;
 	padding-left: 130px;
 	padding-top: 50px;
+	vertical-align: 1em;
 }
-
 
