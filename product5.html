@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title></title>
+    <title>Букет "Ягодный гигант"</title>
     
     <link rel="stylesheet" href="css/style.css">
     
@@ -14,26 +14,33 @@
     <script src="js/scripts.js"></script>
     
     <script src="js/main.js"></script>
+	
+	<script>
+    let tovar = {
+        id: 5,
+        name: 'Букет "Ягодный гигант"',
+        price: 7500,
+        qty: 1
+    }
+    </script>
 </head>
 <body>
     <header>
-	<section>
-	 <a href="index.html" class="logohead"><img src="images/logo2.jpg" alt="logo2.jpg"></a>
-        </section>
-        <section>
+	 <div class="logohead">
+		<a href="index.html" class="logohead"><img src="images/logo2.jpg" alt="logo2.jpg"></a>  
+        </div>
             <p class="container">100% Wow-эффект!</p>
-        </section>
+       
         
-        <section class="mainhead">
+        <div class="mainhead">
             <div class="container">
                 <a href="index.html" class="icon logo"></a>
                 <div class="searschform"></div>
                 <a href="#" class="icon login"></a>
                 <a href="order.html" class="icon order"></a>
             </div>
-        </section>
+        </div>
         
-        <section>
             <nav class="container">
                 <a href="index.html">Главная</a>
                 <a href="catalog.html">Каталог</a>
@@ -41,11 +48,11 @@
                 <a href="order.html">Корзина</a>
                 <a href="contacts.html">Контакты</a>
             </nav>
-        </section>
+        
     </header>
     
     <main>
-        <section class="product">
+        <div class="product">
             <div class="container">
                 <aside class="catmenu">
                     <div class="opener">Каталог <span class="icon buket"></span></div>
@@ -119,7 +126,7 @@
                     
                     <div class="imagedesk">
                         <div class="bigimage">
-                            <img src="images/ягодный гигант.jpg" alt="ягодный гигант">
+                            <img src="images/ягодный_гигант.jpg" alt="ягодный гигант">
                         </div>
                        
                     </div>
@@ -127,7 +134,7 @@
                     <div class="pricedesk">
                         <p class="big">Букет "Ягодный гигант"</p>
                         <p class="price">7500 &#8381;</p>
-                        <button type="button" class="buy">Купить</button>
+                        <button type="button" class="buy" onclick="addTovar(tovar)">Купить</button>
                     </div>
                     
                     <div class="descriptions">Состав букета: гранат, сливы, клубника,<br> голубика, ежевика, розы, зелень.
@@ -135,7 +142,7 @@
 <br><br>Диаметр букета 40 см.</div>
                 </article>
             </div>
-        </section>
+                   </div>
     </main>
     
     <footer>
