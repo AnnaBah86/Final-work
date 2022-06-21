@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 704px;
+    }
+  
+  .item-desk {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    footer .container {
+     
+        box-sizing: border-box;
+    }
+   
+    footer p {
+        width: 336px;
+        margin: 0;
+    }
+    
+    footer ol {
+        display: block;
+    }
+  
+    footer li br {
+        display: none;
+    }
+}

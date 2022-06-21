@@ -1,0 +1,32 @@
+﻿@media screen and (max-width: 760px) {
+    body {
+        min-width: 320px;
+    }
+    .container {
+        width: auto;
+        min-width: 288px;
+        margin: 0 16px;
+    }
+	.item-desk {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    }
+  
+    footer .container {
+     
+        box-sizing: border-box;
+        text-align: center;
+    }
+   
+    footer p {
+        width: 100%;
+    }
+    
+    footer li br {
+        display: inline;
+    }
+    .copy {
+        margin-top: 32px;
+    }
+}
